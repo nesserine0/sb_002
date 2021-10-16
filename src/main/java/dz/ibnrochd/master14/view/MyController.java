@@ -81,6 +81,7 @@ public class MyController implements ErrorController {
 	public String ConsultationPage(Model model, @PathVariable Long id) {
 
 
+
 		 model.addAttribute("p", iPatientService.getPatient(id)); 
 		
 		//liste des consultation d un patient

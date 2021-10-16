@@ -30,8 +30,7 @@ import dz.ibnrochd.master14.dao.TraitementRepository;
 import dz.ibnrochd.master14.model.Consultation;
 import dz.ibnrochd.master14.model.Patient;
 import dz.ibnrochd.master14.model.Traitement;
-import others.UrlLocaleInterceptor;
-import others.UrlLocaleResolver;
+
 
 @EnableWebMvc
 @Configuration
