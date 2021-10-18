@@ -43,7 +43,7 @@ public class Sb002Application implements CommandLineRunner {
 		
 		// TODO : récupérer la liste de tous les patients puis afficher leurs noms
 		
-		System.out.println("\n\nList des patients : \n");
+		/*System.out.println("\n\nList des patients : \n");
 		 patientRepository.findAll().forEach(pat->System.out.print(pat.getNom()+"\n"));
 		
 		// TODO : rechercher les patients ayant le nom "Yahi" puis afficher leurs prénoms
@@ -67,7 +67,7 @@ public class Sb002Application implements CommandLineRunner {
 		  System.out.println("\n\nLes noms des médicaments des ligne de la consultation 3 : ");
 		 ligneConsultationRepository.findByConsultation(c)
 		 .forEach(ligne->System.out.println( traitementRepository.findByLigneConsultations(ligne).getNom()));
-		
+		*/
 	}
 
 }
